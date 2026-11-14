@@ -154,8 +154,11 @@
       },
       "AutoMapper": {
         "type": "Transitive",
-        "resolved": "14.0.0",
-        "contentHash": "OC+1neAPM4oCCqQj3g2GJ2shziNNhOkxmNB9cVS8jtx4JbgmRzLcUOxB9Tsz6cVPHugdkHgCaCrTjjSI0Z5sCQ=="
+        "resolved": "15.1.4",
+        "contentHash": "a8glKpFJM6GWshSKzeoF20IkbksZJ1gIAEblz9pit9KIbM191nAQq90hjm8i0PHlB7Pq34jssH/edU32iVkzmQ==",
+        "dependencies": {
+          "Microsoft.IdentityModel.JsonWebTokens": "8.14.0"
+        }
       },
       "AWSSDK.Core": {
         "type": "Transitive",
@@ -1215,7 +1218,7 @@
       "commercial.infrastructure.entityframework": {
         "type": "Project",
         "dependencies": {
-          "AutoMapper": "[14.0.0, 14.0.0]",
+          "AutoMapper": "[15.1.4, 15.1.4]",
           "Core": "[2026.10.0, )",
           "Infrastructure.EntityFramework": "[2026.10.0, )"
         }
@@ -1301,7 +1304,7 @@
       "infrastructure.entityframework": {
         "type": "Project",
         "dependencies": {
-          "AutoMapper": "[14.0.0, 14.0.0]",
+          "AutoMapper": "[15.1.4, 15.1.4]",
           "Core": "[2026.10.0, )",
           "Microsoft.EntityFrameworkCore.Relational": "[8.0.11, 8.0.11]",
           "Microsoft.EntityFrameworkCore.SqlServer": "[8.0.11, 8.0.11]",
